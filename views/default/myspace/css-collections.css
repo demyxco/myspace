@@ -1,0 +1,120 @@
+.sidebar-status a {
+	margin-top: 0;
+}
+
+.elgg-menu-page {
+	margin-bottom: 0;
+}
+
+.elgg-menu-page a {
+	padding: 10px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+
+.elgg-menu-page li.elgg-state-selected > a {
+	border: 1px solid #9f9f9f;
+	background: #aaa;
+	background: -moz-linear-gradient(top, #aaa 0%, #9f9f9f 100%);
+	background: -webkit-gradient(linear, 0% 0%,0% 100%, from(#9f9f9f), to(#999));
+	background: -webkit-linear-gradient(top, #aaa 0%,#9f9f9f 100%);
+	background: -o-linear-gradient(top, #aaa 0%,#9f9f9f 100%);
+	background: -ms-linear-gradient(top, #aaa 0%,#9f9f9f 100%);
+	background: linear-gradient(top, #aaa 0%,#9f9f9f 100%);
+	padding-top: 9px;
+	padding-bottom: 9px;
+}
+
+.elgg-menu-page a {
+	color: white;
+	background: #aaa;
+	font-size: 100%;
+}
+
+.elgg-menu-page a:hover {
+	border: 1px solid #9f9f9f;
+	background: #aaa;
+	background: -moz-linear-gradient(top, #aaa 0%, #9f9f9f 100%);
+	background: -webkit-gradient(linear, 0% 0%,0% 100%, from(#9f9f9f), to(#999));
+	background: -webkit-linear-gradient(top, #aaa 0%,#9f9f9f 100%);
+	background: -o-linear-gradient(top, #aaa 0%,#9f9f9f 100%);
+	background: -ms-linear-gradient(top, #aaa 0%,#9f9f9f 100%);
+	background: linear-gradient(top, #aaa 0%,#9f9f9f 100%);
+	font-size: 100%;
+	padding-top: 9px;
+	padding-bottom: 9px;
+}
+
+.elgg-main {
+    top: 0px;
+    bottom: 60px;
+    left: 0px;
+    right: 0;
+    position: static;
+    -moz-column-count:1; /* Firefox */
+	-webkit-column-count:1; /* Safari and Chrome */
+	column-count:1;
+	-moz-column-gap: 0px; /* Firefox */
+	-webkit-column-gap: 0px; /* Safari and Chrome */
+	column-gap: 0;
+	width: auto;
+	margin-top: 10px;
+	padding-left: 260px;
+	height: 3000px !important;
+}
+
+#friends_collections_accordian .friends-picker-main-wrapper {
+	background: none;
+}
+
+html {
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+.elgg-main > .elgg-head {
+	border: 0;
+}
+
+#friends_collections_accordian li h2 {
+	padding: 10px;
+	border: 1px solid #2e88c4;
+	background: #2e88c4;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#friends_collections_accordian li h2:hover {
+	border-color: rgb(51, 51, 51);
+}
+
+.elgg-menu-item-add a {
+	border: 1px solid #2e88c4;
+	background: #2e88c4;
+	float: right;
+	text-shadow: none;
+	font-weight: normal;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: white;
+}
+
+.elgg-menu-item-add a:hover {
+	color: white;
+}
+
+div table {
+	width: 100%;
+}
+
+.pas {
+    position: absolute;
+    margin-top: 210px;
+    text-align: center;
+    margin-left: -25px;
+}

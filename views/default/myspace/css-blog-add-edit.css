@@ -1,0 +1,61 @@
+.elgg-main {
+    top: 10px;
+    bottom: 60px;
+    left: 250px;
+    right: 10px;
+    position: absolute;
+	width: auto;
+}
+
+.mls {
+	float: left;
+	margin-left: 0;
+}
+
+input, textarea {
+	font-size: 200%;
+	border: 0;
+	border-bottom: 1px solid #ccc;
+	background: none;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	padding: 10px;
+	resize: none;
+	margin-top: 10px;
+}
+
+input[type="text"]:focus, textarea:focus, input[type="password"]:focus {
+	border: 0;
+	border-bottom: 1px solid #ccc;
+	background: white;
+	color: black;
+}
+
+a.elgg-button-delete {
+	margin-top:10px;
+	height: 19px;
+	float: left;
+}
+
+.left-sidebar {
+	top: 20px;
+	background: rgba(226,226,226,0.7);
+	padding: 10px;
+	width: 200px;
+	text-align: center;
+	padding-top: 0;
+}
+
+.ad {
+	margin-top: 10px;
+}
+
+.elgg-module-aside {
+	margin-top: 10px;
+	text-align: left;
+}
+
+.elgg-module {
+	margin-bottom: 0;
+}

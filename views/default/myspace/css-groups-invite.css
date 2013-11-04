@@ -1,0 +1,51 @@
+.left-sidebar {
+	top: 20px;
+	background: rgba(226,226,226,0.7);
+	padding: 10px;
+	width: 200px;
+	text-align: center;
+	padding-bottom: 0;
+}
+
+.left-sidebar .elgg-image-block {
+	text-align: left;
+}
+
+.mtm {
+	margin: 0;
+}
+
+.elgg-form .elgg-form-alt .mtm .elgg-form-groups-invite {
+	overflow: visible;
+}
+
+.elgg-main {
+	margin-right: 5px;
+    margin-left: 250px;
+    position: static;
+	width: 2190px;
+	height: 100%;
+	padding-top: 20px;
+	overflow: visible;
+}
+
+.friends-picker .friends-picker-container .panel .wrapper {
+	overflow: visible;
+}
+
+.ad {
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+.friends-picker-navigation li {
+	padding-right: 5px;
+}
+
+.friends-picker-navigation ul li {
+	background: none;
+}
+
+.elgg-module {
+	margin: 0;
+}

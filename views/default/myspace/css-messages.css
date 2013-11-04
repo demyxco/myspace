@@ -1,0 +1,151 @@
+.left-sidebar {
+	top: 20px;
+	background: rgba(226,226,226,0.7);
+	padding: 10px;
+	width: 200px;
+	padding-bottom: 0px;
+}
+
+.elgg-sidebar {
+	position: absolute;
+	top: 10px;
+	left: 0;
+	margin-left: 10px;
+}
+
+.elgg-main {
+	margin-right: 5px;
+    margin-left: 250px;
+    position: static;
+	width: auto;
+	padding-top: 20px;
+	margin-bottom: 75px;
+}
+
+.elgg-menu-page {
+	margin-top: -15px;
+}
+
+.elgg-menu-page li a {
+	color: white;
+	border: 1px solid #9f9f9f;
+	background: #aaa;
+	float: right;
+	text-align: center;
+	font-weight: normal;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	box-shadow: inset 0px 0px 0px 0px #2e88c4;
+ 	-moz-box-shadow: inset 0px 0px 0px 0px #2e88c4;
+ 	-webkit-box-shadow: inset 0px 0px 0px 0px #2e88c4;
+	letter-spacing: 1px;
+	width: 158px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	
+}
+
+.elgg-menu-page li a:hover, .left-sidebar .elgg-state-selected a, .left-sidebar .elgg-state-selected a:hover {
+	background: #aaa  !important;
+	background: -moz-linear-gradient(top, #aaa 0%, #9f9f9f 100%) !important;
+	background: -webkit-gradient(linear, 0% 0%,0% 100%, from(#9f9f9f), to(#999)) !important;
+	background: -webkit-linear-gradient(top, #aaa 0%,#9f9f9f 100%) !important;
+	background: -o-linear-gradient(top, #aaa 0%,#9f9f9f 100%) !important;
+	background: -ms-linear-gradient(top, #aaa 0%,#9f9f9f 100%) !important;
+	background: linear-gradient(top, #aaa 0%,#9f9f9f 100%) !important;
+	border: 1px solid #9f9f9f !important;
+	top: 0;
+	color: white;
+}
+
+.elgg-menu-title {
+	padding-bottom: 10px;
+}
+
+.elgg-menu-title a {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: white;
+	font-size: 100%;
+}
+
+.elgg-menu-title a:hover {
+	color: white;
+}
+
+.elgg-list, .elgg-list li {
+	border: 0;
+}
+
+.elgg-output {
+	border: 0;
+	font-size: 130%;
+	margin-left: 0px;
+	margin-right: 3px;
+	background: white;
+	padding: 20px;
+	color: #666;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border-radius: 5px;
+	line-height: 1.5em;
+	position: relative;
+}
+
+.elgg-output:after
+{
+content: "";
+position: absolute;
+top: -15px;
+left: 50px;
+border-style: solid;
+border-width: 0 15px 15px;
+border-color: #FFFFFF transparent;
+display: block;
+width: 0;
+z-index: 1;
+}
+
+input, textarea {
+	font-size: 200%;
+	border: 0;
+	border-bottom: 1px solid #ccc;
+	background: none;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	padding: 10px;
+	resize: none;
+	margin-top: 10px;
+}
+
+input[type="text"]:focus, textarea:focus, input[type="password"]:focus {
+	border: 0;
+	border-bottom: 1px solid #ccc;
+	background: white;
+	color: black;
+}
+
+html {
+	overflow-y: scroll;
+	overflow-x: hidden;
+	height: auto;
+}
+
+.ad {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.messages-timestamp {
+	color: rgb(102,102,102);
+	font-style: italic;
+}

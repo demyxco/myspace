@@ -1,0 +1,34 @@
+.left-sidebar {
+	top: 20px;
+	background: rgba(226,226,226,0.7);
+	padding: 10px;
+	padding-top: 0;
+	width: 200px;
+	padding-bottom: 0;
+}
+
+.elgg-sidebar {
+	position: absolute;
+	top: 10px;
+	left: 0;
+	margin-left: 10px;
+}
+
+.elgg-main {
+	margin-right: 5px;
+    margin-left: 250px;
+    position: static;
+	width: auto;
+	padding-top: 20px;
+	margin-bottom: 60px;
+}
+
+.elgg-main > .elgg-head {
+	border: 0;
+}
+
+.ad {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+}

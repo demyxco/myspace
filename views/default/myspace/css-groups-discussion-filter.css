@@ -1,0 +1,28 @@
+.elgg-main .elgg-list {
+	margin-top: 0px;
+}
+
+.elgg-main .elgg-list > li {
+	background: none;
+	margin: 0;
+	padding: 0;
+}
+
+.elgg-main .elgg-list > li .elgg-content {
+	border: 0;
+	margin-bottom: 20px;
+	margin-left: 0px;
+	margin-right: 3px;
+	background: white;
+	padding: 20px;
+	color: #666;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	line-height: 1.5em;
+	margin-top: 30px;
+}
+
+.elgg-main .elgg-image-block {
+	display: inline-block;
+}

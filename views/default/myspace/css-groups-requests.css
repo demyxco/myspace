@@ -1,0 +1,17 @@
+.left-sidebar {
+	padding-top: 0;
+	text-align: center;
+}
+
+.elgg-image-alt .elgg-button-delete {
+	padding: 3px;
+	margin-right: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.left-sidebar .elgg-image-block {
+	padding: 0;
+	padding-bottom: 20px;
+	text-align: left;
+}

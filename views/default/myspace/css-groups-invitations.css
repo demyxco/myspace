@@ -1,0 +1,10 @@
+.left-sidebar {
+	padding-top: 0;
+}
+
+.elgg-image-alt .elgg-button-delete {
+	padding: 3px;
+	margin-right: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}

@@ -1,0 +1,47 @@
+.login {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 800px;
+	height: 400px;
+	margin-left: -400px;
+	margin-top: -200px;
+	padding: 10px;
+}
+
+.login ul li {
+	float: left;
+	padding: 10px;
+}
+
+.login-welcome {
+	font-size: 400%;
+	color: #aaa;
+	padding-bottom: 50px;
+}
+
+.login-left {
+	width: 250px;
+}
+
+.login-right {
+}
+
+input, textarea {
+	font-size: 200%;
+	border: 0;
+	border-bottom: 1px solid #ccc;
+	background: none;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	width: 500px;
+	padding: 10px;
+}
+
+input[type="text"]:focus, textarea:focus, input[type="password"]:focus {
+	border: 0;
+	border-bottom: 1px solid #ccc;
+	background: white;
+	color: black;
+}

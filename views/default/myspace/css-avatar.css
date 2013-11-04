@@ -1,0 +1,69 @@
+.elgg-sidebar {
+	position: absolute;
+	top: 0;
+	margin-left: 10px;
+}
+
+.elgg-main {
+    bottom: 60px;
+    left: 0px;
+    position: static;
+    -moz-column-count:1; /* Firefox */
+	-webkit-column-count:1; /* Safari and Chrome */
+	column-count:1;
+	-moz-column-gap: 0px; /* Firefox */
+	-webkit-column-gap: 0px; /* Safari and Chrome */
+	column-gap: 0;
+	width: auto;
+	padding-left: 260px;
+	margin-right: 10px;
+}
+
+html {
+	overflow-x: hidden;
+	overflow-y: scroll;
+	height: 1000px;
+}
+
+.elgg-foot {
+	width: 0;
+}
+
+.avatar-submit {
+	position: relative;
+	margin-right: -652px;
+	margin-top: -330px;
+	bottom: 100px;
+}
+
+.avatar-upload {
+	position: absolute;
+	right: 50px	;
+}
+
+.avatar-remove {
+	padding: 10px 20px !important;
+	color: white;
+	position: relative;
+	left: -40px;
+}
+
+.avatar-remove:hover {
+	color: white;
+}
+
+.bottombar {
+	z-index: 1;
+}
+
+.left-sidebar {
+	top: 20px;
+	background: rgba(226,226,226,0.7);
+	padding: 10px;
+	width: 200px;
+	text-align: center;
+}
+
+.ad {
+	margin-top: 10px;
+}

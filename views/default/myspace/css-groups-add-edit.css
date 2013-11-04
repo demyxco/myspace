@@ -1,0 +1,187 @@
+.left-sidebar {
+	top: 20px;
+	background: rgba(226,226,226,0.7);
+	padding: 10px;
+	width: 200px;
+	padding-top: 0;
+	text-align: center;
+}
+
+.elgg-main {
+    top: 20px;
+    bottom: 60px;
+    left: 250px;
+    right: 10px;
+    position: absolute;
+	width: auto;
+}
+
+.elgg-main .elgg-head {
+	display: none;
+}
+
+.elgg-module .elgg-button {
+	margin-top: .5px;
+	padding: 3.4px 10px;
+}
+
+.elgg-menu-filter {
+	margin-left: -10px;
+	margin-bottom: 10px;
+	background: none;
+	border: 0;
+}
+
+.elgg-menu-filter > li {
+	background: none;
+	border: 0;
+	width: 200px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+
+.elgg-menu-filter > li a {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	color: white;
+	background: #aaa;
+	font-size: 100%;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+.elgg-menu-filter > .elgg-state-selected a {
+	background: #aaa;
+	top: 0;
+	border: 1px solid #9f9f9f;
+	padding-top: 9px;
+	padding-bottom: 4px;
+	background: -moz-linear-gradient(top, #aaa 0%, #9f9f9f 100%);
+	background: -webkit-gradient(linear, 0% 0%,0% 100%, from(#9f9f9f), to(#999));
+	background: -webkit-linear-gradient(top, #aaa 0%,#9f9f9f 100%);
+	background: -o-linear-gradient(top, #aaa 0%,#9f9f9f 100%);
+	background: -ms-linear-gradient(top, #aaa 0%,#9f9f9f 100%);
+	background: linear-gradient(top, #aaa 0%,#9f9f9f 100%);
+}
+
+.elgg-menu-filter > .elgg-state-selected a:hover {
+
+}
+
+.elgg-menu-filter > .elgg-state-selected a:hover {
+	background: #aaa;
+	background: -moz-linear-gradient(top, #aaa 0%, #9f9f9f 100%);
+	background: -webkit-gradient(linear, 0% 0%,0% 100%, from(#9f9f9f), to(#999));
+	background: -webkit-linear-gradient(top, #aaa 0%,#9f9f9f 100%);
+	background: -o-linear-gradient(top, #aaa 0%,#9f9f9f 100%);
+	background: -ms-linear-gradient(top, #aaa 0%,#9f9f9f 100%);
+	background: linear-gradient(top, #aaa 0%,#9f9f9f 100%);
+	border: 1px solid #9f9f9f;
+	top: 0;
+	color: white;
+}
+
+.elgg-menu-filter > li a:hover {
+	background: #aaa;
+	background: -moz-linear-gradient(top, #aaa 0%, #9f9f9f 100%);
+	background: -webkit-gradient(linear, 0% 0%,0% 100%, from(#9f9f9f), to(#999));
+	background: -webkit-linear-gradient(top, #aaa 0%,#9f9f9f 100%);
+	background: -o-linear-gradient(top, #aaa 0%,#9f9f9f 100%);
+	background: -ms-linear-gradient(top, #aaa 0%,#9f9f9f 100%);
+	background: linear-gradient(top, #aaa 0%,#9f9f9f 100%);
+	border: 1px solid #9f9f9f;
+	color: white;
+	padding-top: 9px;
+	padding-bottom: 4px;
+}
+
+.elgg-menu-page {
+	margin-bottom: 0;
+	margin-top: 10px;
+	text-align: center;
+}
+
+.elgg-menu-page a {
+	padding: 10px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin-top: 10px;
+	color: white;
+	background: #aaa;
+	font-size: 100%;
+}
+
+.elgg-menu-page li.elgg-state-selected > a {
+	border: 1px solid #9f9f9f;
+	background: #aaa;
+	background: -moz-linear-gradient(top, #aaa 0%, #9f9f9f 100%);
+	background: -webkit-gradient(linear, 0% 0%,0% 100%, from(#9f9f9f), to(#999));
+	background: -webkit-linear-gradient(top, #aaa 0%,#9f9f9f 100%);
+	background: -o-linear-gradient(top, #aaa 0%,#9f9f9f 100%);
+	background: -ms-linear-gradient(top, #aaa 0%,#9f9f9f 100%);
+	background: linear-gradient(top, #aaa 0%,#9f9f9f 100%);
+	padding-top: 9px;
+	padding-bottom: 9px;
+}
+
+.elgg-menu-page a:hover {
+	border: 1px solid #9f9f9f;
+	background: #aaa;
+	background: -moz-linear-gradient(top, #aaa 0%, #9f9f9f 100%);
+	background: -webkit-gradient(linear, 0% 0%,0% 100%, from(#9f9f9f), to(#999));
+	background: -webkit-linear-gradient(top, #aaa 0%,#9f9f9f 100%);
+	background: -o-linear-gradient(top, #aaa 0%,#9f9f9f 100%);
+	background: -ms-linear-gradient(top, #aaa 0%,#9f9f9f 100%);
+	background: linear-gradient(top, #aaa 0%,#9f9f9f 100%);
+	font-size: 100%;
+	padding-top: 9px;
+	padding-bottom: 9px;
+}
+
+.elgg-input-file {
+	font-size: 100%;
+}
+
+input, textarea {
+	font-size: 200%;
+	border: 0;
+	border-bottom: 1px solid #ccc;
+	background: none;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	padding: 10px;
+	resize: none;
+	margin-top: 10px;
+}
+
+input[type="text"]:focus, textarea:focus, input[type="password"]:focus {
+	border: 0;
+	border-bottom: 1px solid #ccc;
+	background: white;
+	color: black;
+}
+
+#counter {
+	padding: 10px;
+	font-size: 300%;
+	color: #aaa;
+	float: right;
+	margin-right: 90px;
+	margin-top: -49px;
+	visibility: hidden;
+}
+
+a.elgg-button-delete {
+	margin-top:10px;
+	height: 19px;
+	float: left;
+}
+
+.ad {
+	margin-top: 10px;
+}

@@ -1,0 +1,103 @@
+.left-sidebar {
+	top: 20px;
+	background: rgba(226,226,226,0.7);
+	padding: 10px;
+	width: 200px;
+	text-align: center;
+}
+
+.elgg-main {
+    top: 10px;
+    bottom: 60px;
+    left: 250px;
+    right: 0;
+    position: absolute;
+    -moz-column-count:3; /* Firefox */
+	-webkit-column-count:3; /* Safari and Chrome */
+	column-count:3;
+	-moz-column-gap: 0px; /* Firefox */
+	-webkit-column-gap: 0px; /* Safari and Chrome */
+	column-gap: 0;
+	width: 930px;
+	margin-left: 0px;
+}
+
+.elgg-item .elgg-content {
+	border: 0;
+	margin-top: 20px;
+	font-size: 130%;
+	margin-left: 0px;
+	margin-right: 3px;
+	background: white;
+	padding: 20px;
+	color: #666;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	line-height: 1.5em;
+}
+
+.elgg-list > li, .elgg-list {
+	border: 0;
+}
+
+.elgg-list {
+	margin: 0;
+}
+
+.elgg-body, .elgg-col-last {
+    margin-left: 0px;
+    margin-right: 10px;
+    overflow: visible;
+}
+
+.elgg-main .elgg-head {
+	display: none;
+}
+
+.ad {
+	margin-top: 0px;
+}
+
+.elgg-menu-title {
+	float: none;
+	text-align: left;
+	margin-left: -4px;
+}
+
+.elgg-menu-title a {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: white;
+	width: 158px;
+	font-size: 100%;
+}
+
+.elgg-menu-title a:hover {
+	color: white;
+}
+
+.elgg-image-block {
+	margin-top: 10px;
+	text-align: left;
+	display: inline-block;
+	margin-right: 7px;
+}
+
+.elgg-menu-entity {
+	margin: 0;
+}
+
+.groups-latest-reply {
+	float: left;
+}
+
+.elgg-module {
+	margin: 0;
+}
+
+.elgg-infinite-scroll-bottom {
+	width: 255px;
+}

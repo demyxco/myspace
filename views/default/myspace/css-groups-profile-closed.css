@@ -1,0 +1,172 @@
+.left-sidebar {
+	top: 20px;
+	background-color: rgba(226,226,226,0.7);
+	padding: 10px;
+	width: 200px;
+}
+
+.groups-stats {
+	background: white;
+}
+
+.elgg-main .elgg-head {
+	display: none;
+}
+
+.elgg-main {
+	left: 262px;
+	width: 260px;
+	top: 0;
+	position: absolute;
+	background: rgba(0,0,0,0.1);
+	height: 100%;
+	overflow: visible;
+}
+
+.mbm, .mvm {
+	width: 145px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.elgg-module {
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+.elgg-module .elgg-button {
+	margin-top: .5px;
+	padding: 3.4px 10px;
+}
+
+.elgg-menu-title {
+	float: none;
+	text-align: left;
+	margin-left: -4px;
+	margin-top: 3px !important;
+}
+
+.elgg-menu-title a {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: white;
+	width: 158px;
+	font-size: 100%;
+	margin-top: 10px;
+}
+
+.elgg-menu-title a:hover {
+	color: white;
+}
+
+.elgg-list > li, .elgg-list {
+   	border: 0;
+}
+
+.elgg-list > li {
+	border: 0;
+	margin-bottom: 20px;
+	margin-left: 0px;
+	margin-right: 3px;
+	background: white;
+	color: #666;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	line-height: 1.5em;
+}
+
+.elgg-content {
+	position: relative;
+	left: 0px;
+	font-size: 130%;
+	line-height: 1.5em;
+}
+
+.elgg-menu-title li {
+	margin-top: -2px;
+	margin-bottom: 2px;
+}
+
+.elgg-menu-groups-my-status {
+	margin-top: -5px;
+}
+
+.elgg-menu-groups-my-status li a {
+	margin-top: 8px;
+}
+
+.elgg-menu-groups-my-status li a, .elgg-menu-page li a {
+	color: white;
+	border: 1px solid #2e88c4;
+	background: #2e88c4;
+	margin-bottom: 10px;
+	text-align: center;
+	font-weight: normal;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	box-shadow: inset 0px 0px 0px 0px #2e88c4;
+ 	-moz-box-shadow: inset 0px 0px 0px 0px #2e88c4;
+ 	-webkit-box-shadow: inset 0px 0px 0px 0px #2e88c4;
+	letter-spacing: 1px;
+	width: 158px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.elgg-menu-groups-my-status li a:hover, .elgg-menu-page li a:hover {
+	border: 1px solid #2876aa;
+	background: #2e88c4; /* Old browsers */
+	background: -moz-linear-gradient(top,  #2e88c4 0%, #207cca 99%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2e88c4), color-stop(99%,#207cca)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #2e88c4 0%,#207cca 99%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #2e88c4 0%,#207cca 99%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #2e88c4 0%,#207cca 99%); /* IE10+ */
+	background: linear-gradient(to bottom,  #2e88c4 0%,#207cca 99%); /* W3C */
+	color: white;
+}
+
+.groups-profile-info h2 {
+	display: block;
+	color: black;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 30px;
+}
+
+.groups-profile-summary {
+	color: #404040;
+	font-size: 220%;
+	padding-left: 5px;
+	padding-right: 5px;
+	line-height: 1em;
+	padding-bottom: 25px;
+	min-height: 400px;
+}
+
+.groups-profile-members {
+	padding: 10px;
+}
+
+.groups-activity {
+	left: 300px;
+	top: 20px;
+	position: absolute;
+	width: 100%;
+	font-size: 200%;
+	line-height: 1.5em;
+}
+
+.elgg-body, .elgg-col-last {
+	overflow: visible;
+}
+
+.elgg-menu-item-membership-status li {
+	margin-top: -15px;
+}
+

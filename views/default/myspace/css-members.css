@@ -1,0 +1,223 @@
+.sidebar-status a {
+	margin-top: 0;
+}
+
+.elgg-menu-page {
+	margin-bottom: 0;
+	margin-top: -8px;
+}
+
+.elgg-menu-page a {
+	padding: 10px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin-top: 10px;
+	color: white;
+	background: #aaa;
+	font-size: 100%;
+}
+
+.elgg-menu-page li.elgg-state-selected > a {
+	border: 1px solid #9f9f9f;
+	background: #aaa;
+	background: -moz-linear-gradient(top, #aaa 0%, #9f9f9f 100%);
+	background: -webkit-gradient(linear, 0% 0%,0% 100%, from(#9f9f9f), to(#999));
+	background: -webkit-linear-gradient(top, #aaa 0%,#9f9f9f 100%);
+	background: -o-linear-gradient(top, #aaa 0%,#9f9f9f 100%);
+	background: -ms-linear-gradient(top, #aaa 0%,#9f9f9f 100%);
+	background: linear-gradient(top, #aaa 0%,#9f9f9f 100%);
+	padding-top: 9px;
+	padding-bottom: 9px;
+}
+
+.elgg-menu-page a:hover {
+	border: 1px solid #9f9f9f;
+	background: #aaa;
+	background: -moz-linear-gradient(top, #aaa 0%, #9f9f9f 100%);
+	background: -webkit-gradient(linear, 0% 0%,0% 100%, from(#9f9f9f), to(#999));
+	background: -webkit-linear-gradient(top, #aaa 0%,#9f9f9f 100%);
+	background: -o-linear-gradient(top, #aaa 0%,#9f9f9f 100%);
+	background: -ms-linear-gradient(top, #aaa 0%,#9f9f9f 100%);
+	background: linear-gradient(top, #aaa 0%,#9f9f9f 100%);
+	font-size: 100%;
+	padding-top: 9px;
+	padding-bottom: 9px;
+}
+
+.elgg-main {
+    top: 20px;
+    bottom: 60px;
+    left: 252px;
+    right: 0;
+    position: absolute;
+    -moz-column-count:3; /* Firefox */
+	-webkit-column-count:3; /* Safari and Chrome */
+	column-count:3;
+	-moz-column-gap: 0px; /* Firefox */
+	-webkit-column-gap: 0px; /* Safari and Chrome */
+	column-gap: 0;
+	width: 730px;
+	margin-left: 0px;
+	padding: 0;
+}
+
+.elgg-main .elgg-list {
+	margin: 0;
+}
+
+.elgg-main .elgg-list, .elgg-list > li {
+	border: 0;
+}
+
+.elgg-main .elgg-image-block .elgg-image {
+	float: none;
+	margin-bottom: 5px;
+	margin-right: 10px;
+}
+
+.elgg-body, .elgg-col-last {
+	margin-left: 0px;
+	margin-right: 0px;
+	text-align: center;
+	overflow: visible;
+}
+
+.elgg-main .elgg-list > li {
+	background: white;
+	margin-bottom: 15px;
+	width: 220px;
+	margin-left: 10px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.elgg-main .elgg-image-block {
+	padding: 0;
+	margin: 0;
+	margin-top: -5px;
+}
+
+.elgg-main .elgg-menu-entity > li > span, .elgg-menu-annotation > li > span {
+	margin-right: 30px;
+}
+
+.elgg-main .elgg-menu-entity, elgg-menu-annotation {
+	float: none;
+}
+
+body, html {
+	margin: 0;
+	padding: 0;
+}
+
+.left-sidebar {
+	top: 20px;
+	background: rgba(226,226,226,0.7);
+	padding: 10px;
+	width: 200px;
+	text-align: center;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.ad {
+	margin-top: 10px;
+}
+
+.elgg-main .elgg-avatar-large > a > img {
+	margin-left: 10px;
+	margin-top: 15px;
+}
+
+.elgg-main .elgg-image-block {
+	display: inline-block;
+}
+
+.elgg-tabs {
+	margin-left: -10px;
+	margin-bottom: 10px;
+	background: none;
+	border: 0;
+	margin-top: -10px;
+}
+
+.elgg-tabs > li {
+	background: none;
+	border: 0;
+	width: 200px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+
+.elgg-tabs > li a {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	color: white;
+	background: #aaa;
+	font-size: 100%;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+.elgg-tabs > .elgg-state-selected a {
+	background: #aaa;
+	top: 0;
+	border: 1px solid #9f9f9f;
+	padding-top: 9px;
+	padding-bottom: 4px;
+	background: -moz-linear-gradient(top, #aaa 0%, #9f9f9f 100%);
+	background: -webkit-gradient(linear, 0% 0%,0% 100%, from(#9f9f9f), to(#999));
+	background: -webkit-linear-gradient(top, #aaa 0%,#9f9f9f 100%);
+	background: -o-linear-gradient(top, #aaa 0%,#9f9f9f 100%);
+	background: -ms-linear-gradient(top, #aaa 0%,#9f9f9f 100%);
+	background: linear-gradient(top, #aaa 0%,#9f9f9f 100%);
+}
+
+.elgg-tabs > .elgg-state-selected a:hover {
+	background: #aaa;
+	background: -moz-linear-gradient(top, #aaa 0%, #9f9f9f 100%);
+	background: -webkit-gradient(linear, 0% 0%,0% 100%, from(#9f9f9f), to(#999));
+	background: -webkit-linear-gradient(top, #aaa 0%,#9f9f9f 100%);
+	background: -o-linear-gradient(top, #aaa 0%,#9f9f9f 100%);
+	background: -ms-linear-gradient(top, #aaa 0%,#9f9f9f 100%);
+	background: linear-gradient(top, #aaa 0%,#9f9f9f 100%);
+	border: 1px solid #9f9f9f;
+	top: 0;
+	color: white;
+}
+
+.elgg-tabs > li a:hover {
+	background: #aaa;
+	background: -moz-linear-gradient(top, #aaa 0%, #9f9f9f 100%);
+	background: -webkit-gradient(linear, 0% 0%,0% 100%, from(#9f9f9f), to(#999));
+	background: -webkit-linear-gradient(top, #aaa 0%,#9f9f9f 100%);
+	background: -o-linear-gradient(top, #aaa 0%,#9f9f9f 100%);
+	background: -ms-linear-gradient(top, #aaa 0%,#9f9f9f 100%);
+	background: linear-gradient(top, #aaa 0%,#9f9f9f 100%);
+	border: 1px solid #9f9f9f;
+	color: white;
+	padding-top: 9px;
+	padding-bottom: 4px;
+}
+
+.elgg-module .elgg-button {
+	margin-top: .5px;
+	padding: 3.4px 10px;
+}
+
+.elgg-module {
+	margin: 0;
+}
+
+.mbm, .mvm {
+	width: 115px;
+}
+
+.elgg-infinite-scroll-bottom {
+	width:auto;
+}

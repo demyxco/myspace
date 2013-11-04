@@ -1,0 +1,199 @@
+.left-sidebar {
+	top: 20px;
+	text-align: left;
+	padding-bottom: 0;
+	text-align: center;
+}
+
+.elgg-sidebar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-left: 10px;
+}
+
+.elgg-main {
+	margin-right: 5px;
+    margin-left: 250px;
+    position: static;
+	width: auto;
+	height: 100%;
+	padding-top: 20px;
+}
+
+html {
+	overflow-y: scroll;
+	overflow-x: hidden;
+	height: auto;
+}
+
+.elgg-comments > form {
+	height: 345px;
+}
+
+.elgg-list-river > li, .elgg-list-annotation > li {
+	width: auto;
+}
+
+.elgg-list, .elgg-list li {
+	border: 0;
+}
+
+.elgg-list-river > li, .elgg-list-annotation > li {
+	padding: 0;
+}
+
+.elgg-content .elgg-image-block {
+	padding-right: 5px;
+}
+
+.elgg-content .elgg-output {
+	border: 0;
+	font-size: 130%;
+	margin-left: 0px;
+	margin-right: 3px;
+	background: white;
+	padding: 20px;
+	color: #666;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border-radius: 5px;
+	line-height: 1.5em;
+	position: relative;
+}
+
+.elgg-content .elgg-output:after
+{
+content: "";
+position: absolute;
+top: -15px;
+left: 50px;
+border-style: solid;
+border-width: 0 15px 15px;
+border-color: #FFFFFF transparent;
+display: block;
+width: 0;
+z-index: 1;
+}
+
+.blog-comments .elgg-item:nth-child(even) .elgg-output {
+	border: 0;
+	font-size: 130%;
+	margin-left: 20px;
+	margin-right: 3px;
+	background: white;
+	padding: 20px;
+	color: #666;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border-radius: 5px;
+	line-height: 1.5em;
+	position: relative;
+	margin-bottom: 20px;
+	min-width: 10px;
+}
+
+.blog-comments .elgg-item:nth-child(odd) .elgg-output {
+	border: 0;
+	right: 0;
+	font-size: 130%;
+	margin-left: 0px;
+	margin-right: 70px;
+	background: white;
+	padding: 20px;
+	color: #666;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border-radius: 5px;
+	line-height: 1.5em;
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.blog-comments .elgg-item:nth-child(even) .elgg-output:after {
+content: "";
+position: absolute;
+top: 15px;
+left: -15px;
+border-style: solid;
+border-width: 15px 15px 15px 0;
+border-color: transparent #FFFFFF;
+display: block;
+width: 0;
+z-index: 1;		
+}
+
+.blog-comments .elgg-item:nth-child(odd) .elgg-output:after {
+content: "";
+position: absolute;
+top: 17px;
+right: -15px;
+border-style: solid;
+border-width: 15px 0 15px 15px;
+border-color: transparent #FFFFFF;
+display: block;
+width: 0;
+z-index: 1;
+}
+
+.blog-comments .elgg-item:nth-child(even) .commenter {
+	margin-left: 20px;
+}
+
+.blog-comments .elgg-item:nth-child(odd) .commenter {
+	text-align: right;
+	margin-right: 75px;
+}
+
+.blog-comments .elgg-item:nth-child(even) .elgg-image {
+	margin-top: 35px;
+}
+
+.blog-comments .elgg-item:nth-child(odd) .elgg-image {
+	position: absolute;
+	right: 0;
+	margin-top: 37px;
+	margin-right: 20px;
+}
+
+.blog-comments h3 {
+	margin-bottom: 10px;
+}
+
+.elgg-comments > form {
+	padding-right: 2px;
+}
+
+.left-sidebar {
+	top: 20px;
+	background: rgba(226,226,226,0.7);
+	padding: 10px;
+	width: 200px;
+	text-align: center;
+}
+
+.report-button li {
+	background: #2e88c4;
+	color: white;
+	margin-bottom: 10px;
+}
+
+.report-button a {
+	padding: 10px;
+	float: left;
+	font-size: 100%;
+	width: 178px;
+	margin-bottom: 10px;
+}
+
+.elgg-module-aside {
+	margin-top: 10px;
+	text-align: left;
+}
+
+.elgg-module {
+	margin-bottom: 0;
+}

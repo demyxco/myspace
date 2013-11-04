@@ -1,0 +1,231 @@
+.sidebar-info {
+	display: table;
+	margin-left: 10px;
+	width: 200px;
+	margin-top: 10px;
+	background-color: rgb(34, 34, 34);
+	box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5) inset;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+
+}
+
+.elgg-menu-filter, .elgg-river-layout .elgg-input-dropdown, .elgg-main > .elgg-head {
+	display: none;
+}
+
+.sidebar-info li {
+	display: table-cell;
+	padding: 0;
+	margin: 0;
+}
+
+.sidebar-info a {
+    display: block;
+    text-align: center;
+    color: #ccc;
+	padding-top: 10px;
+	padding-bottom: 8px;
+}
+
+.sidebar-info a b {
+	color: #a9a9a9;
+	font-size: 150%;
+}
+
+.sidebar-info li a:hover {	
+	color: white;
+	box-shadow: inset 0px -3px 0px 0px #2e88c4;
+ 	-moz-box-shadow: inset 0px -3px 0px 0px #2e88c4;
+ 	-webkit-box-shadow: inset 0px -3px 0px 0px #2e88c4;
+}
+
+.sidebar-following {
+	width: 50px;
+	border-right: 1px solid rgb(34, 34, 34);
+	box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1) inset;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.sidebar-followers {
+	width: 50px;
+	border-right: 1px solid rgb(34, 34, 34);
+	box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5) inset;
+}
+
+.sidebar-wires {
+	width: 50px;
+	border-left: 1px solid rgb(34, 34, 34);
+	box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5) inset;
+	-webkit-border-top-right-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-moz-border-radius-topright: 5px;
+	-moz-border-radius-bottomright: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.elgg-sidebar .elgg-avatar-large > a > img {
+	height: 200px;
+}
+
+.elgg-sidebar span img {
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;	
+}
+
+.sidebar-name a {
+	display: block;
+	margin-top: 5px;
+	width: 220px;
+	text-align: center;
+	font-size: 130%;
+	color: #aaa;
+	white-space: pre-line;
+}
+
+.sidebar-name a:hover {
+	color: white;
+}
+
+.left-sidebar {
+	top: 325px;
+	background: rgba(226,226,226,0.7);
+	padding: 10px;
+	width: 200px;
+	text-align: center;
+}
+
+.elgg-main {
+    top: 3px;
+    bottom: 60px;
+    left: 250px;
+    right: 0;
+    position: absolute;
+    -moz-column-count:3; /* Firefox */
+	-webkit-column-count:3; /* Safari and Chrome */
+	column-count:3;
+	-moz-column-gap: 0px; /* Firefox */
+	-webkit-column-gap: 0px; /* Safari and Chrome */
+	column-gap: 0;
+	width: 920px;
+	margin-left: 0px;
+	margin-right: 10px;
+}
+
+.elgg-river-message, .elgg-river-content {
+	border: 0;
+	font-size: 130%;
+	margin-right: 3px;
+	background: white;
+	padding: 20px;
+	color: #666;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.elgg-river-summary {
+	margin-bottom: 30px;
+}
+
+.elgg-list-river > li, .elgg-list-annotation > li {
+	width: 300px;
+	padding-bottom: 0px;
+	border: 0;
+	display: inline-block;
+}
+
+.elgg-list {
+	margin: 0;
+}
+
+.elgg-river-attachments {
+	border: 0;
+	margin-top: 35px;
+	font-size: 130%;
+	margin-right: 3px;
+	background: white;
+	padding: 20px;
+	color: #666;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;	
+	padding-left: 25px;
+}
+
+.elgg-body, .elgg-col-last {
+	overflow: visible;
+	margin-left: 0px;
+	margin-right: 10px;
+}
+
+.elgg-avatar-large > a > img {
+	margin-top: 10px;
+	background-position: center !important;	
+	height: 200px;
+}
+
+#thewire-textarea {
+	width: 100%px;
+	height: 320px;
+	font-size: 300%;
+	border: 0;
+	background: none;
+	resize: none;
+}
+
+#thewire-characters-remaining {
+	float: left;
+	font-size: 300%;
+	margin-top: 30px;
+	margin-left: 25px;
+}
+
+.mts, .mvs {
+	margin-top: 20px;
+	position: absolute;
+	right: 20px;
+}
+
+.elgg-river-attachments .elgg-avatar-large > a > img {
+	margin-top: 0;
+	margin-left: 20px;
+}
+
+.elgg-icon-arrow-right {
+	margin-top: 40px;
+	margin-left: 10px;
+	padding-left: 10px;
+}
+
+.elgg-river-comments, .elgg-river-comments-tab {
+	display: none;
+}
+
+.elgg-river-more {
+	float: none;
+}
+
+.elgg-river-item input[type="text"] {
+	width: 66%;
+}
+
+.elgg-river-responses .elgg-button {
+	padding: 3px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.terms-privacy {
+    position: absolute;
+    top: 660px;
+    left: 65px;
+}

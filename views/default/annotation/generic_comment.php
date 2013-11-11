@@ -21,10 +21,14 @@ if (!$entity || !$commenter) {
 }
 
 $friendlytime = elgg_view_friendly_time($comment->time_created);
-$location = get_metadata_byname($comment->owner_guid,'geo_location'); 
-
 $commenter_icon = elgg_view_entity_icon($commenter, 'small');
 $commenter_link = "<a href=\"{$commenter->getURL()}\">$commenter->name</a>";
+
+$ip_address = $commenter->ip_address;
+$url = 'http://www.geoplugin.net/json.gp?ip=' . $ip_address;
+$json = file_get_contents($url);
+$data = json_decode($json, TRUE);
+$geo_location = $data['geoplugin_city'] . ', ' . $data['geoplugin_region'];
 
 $entity_title = $entity->title ? $entity->title : elgg_echo('untitled');
 $entity_link = "<a href=\"{$entity->getURL()}\">$entity_title</a>";
@@ -44,7 +48,7 @@ if ($full_view) {
 	<div class="commenter">
 	$commenter_link
 	<span class="elgg-subtext">
-		$friendlytime <small>near $location->value</small>
+		$friendlytime <small>near $geo_location</small>
 	</span>
 	</div>
 	$comment_text

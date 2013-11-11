@@ -33,16 +33,16 @@ $elgg = elgg_get_site_url();
 	<style type="text/css">.ad{display:none;}.elgg-sidebar{padding-top:0px}</style>
 <?php } ?>
 <?php if (fnmatch($elgg . 'groups*', $url)) { ?>
-	<style type="text/css">.elgg-menu-filter{margin-top:-10px;margin-bottom: 0;}</style>
+	<style type="text/css">.elgg-menu-filter{margin-top:-10px;margin-bottom: 10px;}</style>
 <?php } ?>
 <?php if (fnmatch($elgg . 'members*', $url)) { ?>
-	<style type="text/css">.guest{margin-bottom:10px;}.elgg-tabs{margin-bottom:0px}.elgg-infinite-scroll-bottom {width:auto}</style>
+	<style type="text/css">.guest{margin-bottom:10px;}.elgg-tabs{margin-bottom:10px}.elgg-infinite-scroll-bottom {width:auto}</style>
 <?php } ?>
 <?php if (fnmatch($elgg . 'thewire*', $url)) { ?>
-	<style type="text/css">.elgg-main .elgg-item:nth-child(2n) .elgg-menu-entity {margin-right:132px;} .elgg-sidebar{padding-top:0px;}</style>
+	<style type="text/css">.elgg-main .elgg-item:nth-child(2n) .elgg-menu-entity {margin-right:132px;} .elgg-sidebar{padding-top:10px;}</style>
 <?php } ?>
 <?php if (fnmatch($elgg . 'blog*', $url)) { ?>
-	<style type="text/css">.guest{margin-bottom:10px;}.elgg-sidebar{padding-top: 0;}</style>
+	<style type="text/css">.guest{margin-top:10px;margin-bottom:10px;}.elgg-sidebar{padding-top: 0;}</style>
 <?php } ?>
 <?php if (fnmatch($elgg . 'friends*', $url)) { ?>
 	<style type="text/css">.guest{margin-top:-10px;}.elgg-infinite-scroll-bottom {width:auto}</style>
@@ -51,19 +51,11 @@ $elgg = elgg_get_site_url();
 	<style type="text/css">.guest{display:none;}.elgg-menu-owner-block-default{position:absolute;margin-top:30px;
 	background: rgba(226,226,226,0.7);
 	padding: 10px;
-	padding-top: 0px;
 	padding-bottom: 6px;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
+	-webkit-border-radius: 8px !important;
+	-moz-border-radius: 8px !important;
+	border-radius: 8px !important;
 	margin-left: -10px;
 	}
 	</style>
-<?php } ?>
-<?php if (fnmatch($elgg . 'photos*', $url)) { ?>
-<style type="text/css">
-.ad {
-	display: none;
-}
-</style>
 <?php } ?>

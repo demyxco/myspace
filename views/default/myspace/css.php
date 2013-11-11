@@ -19,10 +19,19 @@ if(isset($_SERVER['HTTP_USER_AGENT'])){
  
 ?>
 
-.bottombar-ad {
-	position: absolute;
-	bottom: -4px;
-	right: 0;
+.user-location {
+	color: #666;
+	font-size: 85%;
+	text-align: right;
+	vertical-align: top;
+	font-style: italic;
+	padding: 5px;
+}
+
+.user-location img {
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
 }
 
 .elgg-menu-extras {
@@ -125,78 +134,11 @@ body {
 	border-radius: 5px;
 }
 
-#notifier-popup {
-	bottom: 0;
-	margin-bottom: 85px;
-	left: 149px !important;
-	width: 300px !important;
-	position: fixed;
-	overflow: visible;
-}
-
-#notifier-popup:after {
-content: "";
-position: absolute;
-bottom: -14px;
-left: 134px;
-border-style: solid;
-border-width: 15px 15px 0;
-border-color: #eee transparent;
-display: block;
-width: 0;
-z-index: 9999;
-}
-
-#notifier-popup:before {
-content: "";
-position: absolute;
-bottom: -16px;
-left: 132px;
-border-style: solid;
-border-width: 17px 17px 0;
-border-color: #ccc transparent;
-display: block;
-width: 0;
-z-index: 9998;
-opacity: .7;
-}
-
 .elgg-module-popup {
 	box-shadow: 0 0 0 0;
 	border: 0;
 border: 1px solid #ccc;
 background-color: #eee !important;
-}
-
-#notifier-popup .elgg-image-block {
-	display: inline;
-	padding: 0;
-	margin: 0;
-}
-
-#notifier-popup .elgg-body {
-	margin-right: 0;
-	text-align: left;
-}
-
-#notifier-popup .elgg-list { 
-	border: 0;
-	margin: 0;
-}
-
-#notifier-popup .elgg-list > li {
-	border: 0;
-	padding: 5px;
-	background: white;
-	margin-bottom: 5px;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
-}
-
-#notifier-popup .elgg-subtext {
-	font-size: 100%;
-	font-style: normal;
 }
 
 .elgg-module-dropdown {

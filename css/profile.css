@@ -333,3 +333,9 @@ textarea {
 .elgg-infinite-scroll-bottom .elgg-button {
 	padding: 10px;
 }
+
+#profile-owner-block a.elgg-button-action {
+	-webkit-border-radius: 8px !important;
+	-moz-border-radius: 8px !important;
+	border-radius: 8px !important;
+}

@@ -95,10 +95,6 @@ elgg_register_menu_item('topbar', array(
  
 // Elgg logo
 echo elgg_view_menu('topbar', array('sort_by' => 'priority', array('elgg-menu-hz')));
-/*
-if (!$loggedin) {
- 	echo elgg_view('myspace/bottombar-login');
-}*/
 
 echo elgg_view('myspace/bottombar-ad');
 

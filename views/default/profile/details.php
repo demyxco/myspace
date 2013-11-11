@@ -17,9 +17,12 @@ echo '<ul class="profile-details">';
 
 // Only admins should see this
 if (elgg_is_admin_logged_in()) {
-	$location = get_metadata_byname($user->guid,'geo_location');
-	$ip = get_metadata_byname($user->guid,'ip_address');
-	echo $location->value . ' : ' . '<a href="http://www.ip-adress.com/ip_tracer/' . $ip->value . '" target="_blank">' . $ip->value . '</a>';
+	$ip_address = $user->ip_address;
+	$url = 'http://www.geoplugin.net/json.gp?ip=' . $ip_address;
+	$json = file_get_contents($url);
+	$data = json_decode($json, TRUE);
+	$geo_location = $data['geoplugin_city'] . ', ' . $data['geoplugin_region'];
+	echo $geo_location . ' : ' . '<a href="http://www.ip-adress.com/ip_tracer/' . $ip_address . '" target="_blank">' . $ip_address . '</a>';
 }          
 
 if ($user->description == "") { echo '<li></li>'; }

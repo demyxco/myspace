@@ -55,9 +55,7 @@ $metadata = elgg_view_menu('entity', array(
 	'class' => 'elgg-menu-hz',
 ));
 
-$location = get_metadata_byname($blog->owner_guid,'geo_location'); 
-
-$subtitle = "$author_text $date near $location->value $comments_link $categories";
+$subtitle = "$author_text $date $comments_link $categories";
 
 // do not show the metadata and controls in widget view
 if (elgg_in_context('widgets')) {

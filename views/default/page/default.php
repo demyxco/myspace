@@ -29,7 +29,6 @@ $messages = elgg_view('page/elements/messages', array('object' => $vars['sysmess
 $header = elgg_view('page/elements/header', $vars);
 $body = elgg_view('page/elements/body', $vars);
 $footer = elgg_view('page/elements/footer', $vars);
-//$bottombar = elgg_view('myspace/bottombar');
 
 // Set the content type
 header("Content-type: text/html; charset=UTF-8");
@@ -67,6 +66,5 @@ $elgg = elgg_get_site_url();
 		</div>
 	</div>
 </div>
-<?php echo elgg_view('page/elements/foot'); ?>
 </body>
 </html>

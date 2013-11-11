@@ -48,7 +48,7 @@ $token = generate_action_token($ts);
 
 	<li class="sidebar-wires">
 		<a href="<?php echo elgg_get_site_url() . 'thewire/owner/' . $user->username?>">
-		<b><?php echo $wires?></b><br />	Wires
+		<b><?php echo $wires ?></b><br />	Wires
 		</a>
 	</li>
 </ul>
@@ -84,10 +84,14 @@ $token = generate_action_token($ts);
 					<?php 
 						$form_vars = array('class' => 'thewire-form'); 
 						$wire .= elgg_view_form('thewire/add', $form_vars); 
-						$wire .= elgg_view('input/urlshortener'); echo $wire;  
+						$wire .= elgg_view('input/urlshortener'); 
+
+						echo $wire;  
 					?>
 </div>
 
 <div class="terms-privacy">
 	<a href="<?php echo elgg_get_site_url() . 'terms'?>">Terms</a> | <a href="<?php echo elgg_get_site_url() . 'privacy'?>">Privacy</a>
 </div>
+
+<script type="text/javascript" src="<?php echo elgg_get_site_url(); ?>js/thewire.js?view=default"></script>

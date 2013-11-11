@@ -46,6 +46,7 @@ input[type="text"]:focus, textarea:focus, input[type="password"]:focus {
 	top: 20px;
 	background: rgba(226,226,226,0.7);
 	padding: 10px;
+	padding-bottom: 0;
 	width: 200px;
 	text-align: center;
 }

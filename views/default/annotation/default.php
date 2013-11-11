@@ -25,7 +25,12 @@ $menu = elgg_view_menu('annotation', array(
 $text = elgg_view("output/longtext", array("value" => $annotation->value));
 
 $friendlytime = elgg_view_friendly_time($annotation->time_created);
-$location = get_metadata_byname($annotation->owner_guid,'geo_location'); 
+
+$ip_address = $owner->ip_address;
+$url = 'http://www.geoplugin.net/json.gp?ip=' . $ip_address;
+$json = file_get_contents($url);
+$data = json_decode($json, TRUE);
+$geo_location = $data['geoplugin_city'] . ', ' . $data['geoplugin_region'];
 
 $body = <<<HTML
 <div class="mbn">
@@ -33,7 +38,7 @@ $body = <<<HTML
 	<div class="group-annotation">
 	$owner_link
 	<span class="elgg-subtext">
-		$friendlytime near $location->value
+		$friendlytime near $geo_location
 	</span>
 	</div>
 	$text

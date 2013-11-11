@@ -38,9 +38,13 @@ $metadata = elgg_view_menu('entity', array(
 	'class' => 'elgg-menu-hz',
 ));
 
-$location = get_metadata_byname($post->owner_guid,'geo_location'); 
+$ip_address = $owner->ip_address;
+$url = 'http://www.geoplugin.net/json.gp?ip=' . $ip_address;
+$json = file_get_contents($url);
+$data = json_decode($json, TRUE);
+$geo_location = $data['geoplugin_city'] . ', ' . $data['geoplugin_region'];
 
-$subtitle = "$author_text $date near $location->value";
+$subtitle = "$author_text $date near $geo_location";
 
 // do not show the metadata and controls in widget view
 if (elgg_in_context('widgets')) {
@@ -63,3 +67,7 @@ if ($post->reply) {
 	echo "<div class=\"thewire-parent hidden\" id=\"thewire-previous-{$post->guid}\">";
 	echo "</div>";
 }
+
+?>
+
+<script type="text/javascript" src="<?php echo elgg_get_site_url(); ?>js/thewire.js?view=default"></script>

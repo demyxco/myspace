@@ -6,7 +6,7 @@
  * @subpackage Core
  */
  
-$css = 'mod/myspace/views/default/myspace/css-lostpassword.css';
+$css = 'mod/myspace/css/lostpassword.css';
 elgg_register_css('css', $css);
 elgg_load_css('css'); 
  

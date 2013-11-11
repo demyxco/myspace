@@ -28,12 +28,28 @@ $elgg = elgg_get_site_url();
 <div class="<?php echo $class; ?>">
 	<div class="elgg-sidebar">
 		
-		<?php //if( elgg_is_logged_in() && elgg_get_context() == 'activity' ) 
-		if(elgg_is_logged_in() && elgg_get_context() == 'activity') {echo elgg_view('myspace/sidebar-activity');}
-		if (fnmatch($elgg . 'avatar/edit/*', $url)) {echo elgg_view('myspace/sidebar-aep');}
-		if (fnmatch($elgg . 'profile/*/edit', $url)) {echo elgg_view('myspace/sidebar-aep');}
-		if ((fnmatch($elgg . 'friends*', $url)) || (fnmatch($elgg . 'friendsof/*', $url))) {echo elgg_view('myspace/sidebar-friends');}
-		if (fnmatch($elgg . 'blog*', $url)) {echo elgg_view('myspace/sidebar-blog');}
+	<?php
+
+		if (elgg_is_logged_in() && elgg_get_context() == 'activity') {
+			echo elgg_view('myspace/sidebar-activity');
+		}
+
+		if (fnmatch($elgg . 'avatar/edit/*', $url)) {
+			echo elgg_view('myspace/sidebar-aep');
+		}
+
+		if (fnmatch($elgg . 'profile/*/edit', $url)) {
+			echo elgg_view('myspace/sidebar-aep');
+		}
+
+		if ((fnmatch($elgg . 'friends*', $url)) || (fnmatch($elgg . 'friendsof/*', $url))) {
+			echo elgg_view('myspace/sidebar-friends');
+		}
+
+		if (fnmatch($elgg . 'blog*', $url)) {
+			echo elgg_view('myspace/sidebar-blog');
+		}
+
 		if (fnmatch($elgg . 'groups*', $url)) {
 			echo elgg_view('myspace/sidebar-groups');
 		}
@@ -45,18 +61,33 @@ $elgg = elgg_get_site_url();
 		if (fnmatch($elgg . 'photos*', $url)) {
 			echo elgg_view('myspace/sidebar-photos');
 		}
-		if ((fnmatch($elgg . 'members*', $url)) || (elgg_get_context() == 'reportedcontent')) {echo elgg_view('myspace/sidebar-members');}
+
+		if ((fnmatch($elgg . 'members*', $url)) || (elgg_get_context() == 'reportedcontent')) {
+			echo elgg_view('myspace/sidebar-members');
+		}
 		
-		if (elgg_get_context() == 'thewire') { echo elgg_view('myspace/sidebar-thewire'); }
-		if ((elgg_get_context() == 'messages') || (elgg_get_context() == 'notifier')) { echo elgg_view('myspace/sidebar-messages'); }
-		if (elgg_get_context() == 'settings') { echo elgg_view('myspace/sidebar-settings'); }
-		if (elgg_get_context() == 'search') { echo elgg_view('myspace/sidebar-search'); }
-		?>
+		if (elgg_get_context() == 'thewire') {
+			echo elgg_view('myspace/sidebar-thewire');
+		}
+
+		if ((elgg_get_context() == 'messages') || (elgg_get_context() == 'notifier')) {
+			echo elgg_view('myspace/sidebar-messages');
+		}
+
+		if (elgg_get_context() == 'settings') {
+			echo elgg_view('myspace/sidebar-settings');
+		}
+
+		if (elgg_get_context() == 'search') {
+			echo elgg_view('myspace/sidebar-search'); 
+		}
 		
-		<?php if (!elgg_is_logged_in()) { echo elgg_view('myspace/guest'); } else {
+		if (!elgg_is_logged_in()) {
+			echo elgg_view('myspace/guest'); 
+		} else {
 			echo elgg_view('page/elements/sidebar', $vars);
-			}
-		?>
+		}
+	?>
 		
 	</div>
 

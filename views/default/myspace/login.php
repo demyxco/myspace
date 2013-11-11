@@ -7,7 +7,7 @@
 $ts = time();
 $token = generate_action_token($ts); 
 
-$css = 'mod/myspace/views/default/myspace/css-login.css';
+$css = 'mod/myspace/css/login.css';
 elgg_register_css('css', $css);
 elgg_load_css('css');
 
@@ -15,24 +15,13 @@ elgg_load_css('css');
 
 <div class="login">
 	<p class="login-welcome">
-		Welcome to myspace
+		Welcome to MySpace
 	</p>
 	<ul>
 		<li class="login-left">
-			<!--<p align="center"><img src="<?php echo elgg_get_site_url() . 'mod/myspace/images/badge_web20.png' ?>"/>
-			</p>-->
-
-<p align="center">
-
-<h2>July Session 2013</h2>
-
-<br />
-<a href="http://myspace.com/photos/album/10004/session-july-2013"><img src="http://i39.tinypic.com/2znyb7p.png" style="margin-left:25px"></a>
-<br /><br />
-<b>*Must be registered to view photos, signup is free</b>
-
-</p>
-
+			<p align="center"><img src="<?php echo elgg_get_site_url() . 'mod/myspace/images/badge_web20.png' ?>"/>
+			</p>
+		</li>
 		</li>
 		<li class="login-right">
 			<form  method="post" action="action/login" class="elgg-form" autocomplete="on"> 

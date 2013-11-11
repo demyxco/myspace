@@ -43,3 +43,7 @@ input[type="text"]:focus, textarea:focus, input[type="password"]:focus {
 .elgg-form-login, .elgg-form-account .elgg-foot {
 	margin-top: -50px;
 }
+
+.elgg-button {
+	margin-top: 70px;
+}

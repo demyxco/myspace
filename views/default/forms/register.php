@@ -6,9 +6,9 @@
  * @subpackage Core
  */
  
-$css = 'mod/myspace/views/default/myspace/css-register.css';
+$css = 'mod/myspace/css/register.css';
 elgg_register_css('css', $css);
-elgg_load_css('css');
+elgg_load_css('css'); 
 
 $password = $password2 = '';
 $username = get_input('u');
